@@ -1,4 +1,4 @@
-# Intermediate SQL - Sales Analysis
+# Contoso SQL - Sales Analysis
 
 ## Overview
 
@@ -12,5 +12,6 @@
 ### 3. **Retention Analysis**
 
 ## Recomendations
+
 
 ## Technical Skills
