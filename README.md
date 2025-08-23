@@ -9,7 +9,7 @@
 
 ## 🎯Analysis Approach
 ### 1. **Segmentation Analysis**
-During this analysis I am going to break down how the different segments of contoso's consumer base impacts the revenue for the company. It has been divided into three groups conisting of: high-value customers, who are greater than the 75th percentile in purchasing, medium-value customers who are in between the 25th and 75th percentile in purchasing and finally low-value customers, who are less than the 25th percentile in purchasing. This allows us to see the numerical value associated with each group to make business decisions. This also shows insights into which customer segments are impacting our business positively and which one's need more targeting for increased revenue growth.
+During this analysis I am going to break down how the different segments of Contoso’s consumer base impact on the revenue for the company. It has been divided into three groups consisting of: high-value customers, who are greater than the 75th percentile in purchasing, medium-value customers who are in between the 25th and 75th percentile in purchasing and finally low-value customers, who are less than the 25th percentile in purchasing. This allows us to see the numerical value associated with each purchasing group and how they affect our total revenue. This also shows insights into which customer segments are impacting our business positively and which one's need more targeting for increased revenue growth.
 
 #### ⚙️After running this query: 
 ```
@@ -67,13 +67,13 @@ ORDER BY
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/835d299f-2b8c-48c0-9fdb-add45c6c6d0b" />
 
 #### 🧠Can be intrepreted:
-We have a significant amount of mid-value customers contributing to our net revenue but we would like to see how we can move those customers into the high-value area to further increase profits. 
+We have a significant number of mid-value customers contributing to our net revenue, but we would like to see how we can move those customers into the high-value area to further increase profits. 
 
 #### ✅Using the data for decisions: 
-This can be done by increased ad targeting by further analyzing what demographics are in this seciton or offering promotions that would incetive increased spending from our customers. 
+This can be done by increased ad targeting the moderate spenders by further analyzing what demographics they are in or offering promotions that would encourage increased spending from those customers. The key here is to understand that majority of our customers are moderate spenders, and we need to ensure that they can get the most value out of our products, leading to sustainable business practices.
 
 ### 2. **Cohort Analysis** 
-This analysis will break down how active our new customers look compared to our total revenue for a specefied year. I want to see how many new customers we have each year and how much they contribute to the revenue we are bringing in. This will give us a clear indication of how well the business is performning and will implement any strategies to increase or maintain our customers. I think the most important aspect is to see their spending habits and what we can do with that information.
+This analysis will break down how active our new customers look compared to our total revenue for a specified year. We want to see how many new customers we have each year and how much they contribute to the revenue we are bringing in. This will give us a clear indication of how well the business is performing, and we will implement some strategies to increase or maintain our first-time customers. Using this information, it will allow us to leverage new strategies to either maintain or increase our customer base.
 
 #### 🔍After running this query:
 
@@ -109,13 +109,13 @@ GROUP BY
 <img width="1067" height="1600" alt="image" src="https://github.com/user-attachments/assets/575632ba-fa86-4aef-af76-84f1af878b74" />
 
 #### 🧠Can be intrepreted:
-In the first graph we can visually see that for the total customer/cohort year we have seen a general uptick in new customers from 2015-2020 (outlier in 2020 from a pandemic) and after that have seen an unfortunate decrease in new customers from 2022 and out. For the second graph it's easy to see that the total revenue/cohort year closely followed the customer/cohort year graph which makes sense when talking about customer purchasing and new customer attraction. The most concerning graph is the last graph which depicts a decrease in average revenue/customer/cohort year which tells us that the new customer is spending less and less on average each year which is concerning for long-term sustainability as a business. 
+In the first graph we can visually see that for the total customer/cohort year we have seen a general uptick in new customers from 2015-2022 (outlier in 2020 from a pandemic) and after that have seen an unfortunate decrease in new customers from 2022 and out. For the second graph it's easy to see that the total revenue/cohort year closely followed the customer/cohort year graph which makes sense when talking about new customers every year and revenue every year seeing a close correlation between the two. The most concerning graph is the graph depicting average revenue/customer/cohort year, which shows a decrease in average revenue for each year for each customer. This is unfortunate; however, it gives us valuable information about where the decreases happen and what we can do about in the future to see a thriving business.
 
 #### ✅Using the data for decisions: 
-From the first two graphs, it's imparitive that we tackle the problems of why we aren't attracting new customers from 2022 and beyond. The data clearly shows that the attraction of new customers is falling and that is directly impacting our revenue streams. We need to form a solid plan with marketing to first attract these new customers and then retain for loyalty so they will eventually move up to the high-value customer status from the segmentation from before. After that, looking at the spending habits of the customer is essential because we see that from 2017 and onward we saw a dramatic decrease in average new customer spending and try and understand 1) why such a dramatic decrease from 2017 - 2018? and 2) what did we do well from 2015-2017 that each new customer was spending a good consistant amount?
+From the first two graphs, it's imperative that we tackle the problems of why we aren't attracting new customers from 2022 and beyond. The data clearly shows that the attraction of new customers is falling and that is directly impacting on our revenue streams. We need to form a solid plan with marketing to first attract these new customers and then devise a strategy to retain loyalty after we achieve this. After the first two parts, looking at the average spending habits of the customer is essential because we see that from 2017 and onward there was a dramatic decrease in average new customer spending and try and understand 1) Why did such a dramatic decrease from 2017 - 2018? and 2) What did we do well from 2015-2017 and how can we repeat this strategy from here on out? 3) Is this a natural part of business cycles where it’s expected to lose new customers? 
 
 ### 3. **Retention Analysis**
-This section is specefically dedicated to customer retention and how how it might relate to the other analyseses above when talking about key reveneue indicators. The goal is to see how many loyal customers we retain and at what % of our total customer base are considered loyal. This will give us good insights to how many we have in the first place and how we might be able to reatin more customers in the future. 
+This section is specifically dedicated to customer retention and how it might relate to the other analysis above when talking about key revenue indicators. The goal is to see how many loyal customers we currently retain and at what % of our total customer base are considered retained or leave after a one-time purchase. This will give us good insight into our baseline and how we might be able to retain more customers in the future.
 
 #### ⚙️After running this query:
 
@@ -187,12 +187,15 @@ CHURNED,4263,4718,0.90,2023
 
 
 #### 🧠Can be intrepreted:
+This shows the direct relationship between our active and churned customers for each year. This is another great insight for making decisions on how the company can move forward. Unfortunately, there is a high churn rate but being in business, this can be expected. We can see that 2022 was the best year for active customers along with total customers as well.
 
 #### ✅Using the data for decisions: 
-
+Based on the data presented, I believe that continuing the strategies from previous sections would also decrease our churn to active customer rate which we want to reduce below 90% as a starting point. I believe for the company to be sustainable, aiming for 85% -80% will be what we need to continue successful operation. Like before, using our resources like targeted marketing and advertising would help increase customer retention.
 
 ## Recomendations
-
+#### - Increased targeted marketing strategies for comprehensive customer engagement.
+#### - Amplified research and development into products and services currently offered and the introduction of new one's. 
+#### - Considering taking on additional capital debt for innovation, customer outreach, and surveying. 
 
 ## Technical Skills
 - SQL
@@ -202,6 +205,7 @@ CHURNED,4263,4718,0.90,2023
 - Github
 - Google Gemini
  
+
 
 
 
