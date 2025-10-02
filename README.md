@@ -213,12 +213,12 @@ Based on the data presented, I believe that continuing the strategies from previ
 - Considering taking on additional capital debt for innovation, customer outreach, and surveying. 
 
 ### ✍️ Technical Skills Learned
-- SQL
-- Postgresql
-- Dbeaver
-- Git
-- Github
-- Google Gemini
+- SQL queries
+- Postgresql SQL database
+- Dbeaver SQL analysis
+- Git's local repository 
+- Github presentations
+- Google Gemini visualizations
 - Data implementation, extraction, and stories.
 
 ### 🚀 Future
@@ -228,7 +228,12 @@ Based on the data presented, I believe that continuing the strategies from previ
 ### 💻 Sources
 - [Luke Barrouse](https://www.youtube.com/watch?v=QKIGsShyEsQ&t=23012s&pp=0gcJCfsJAYcqIYzv)
 - [Microsoft Contoso Database](https://www.microsoft.com/en-us/download/details.aspx?id=18279)
+- Dbeaver
+- PostgreSQL
+- Github
+- Google Gemini
  
+
 
 
 
