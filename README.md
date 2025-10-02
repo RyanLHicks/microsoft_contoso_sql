@@ -2,16 +2,16 @@
 
 ## Introduction
 ### 🌄 Background
-- This is part of a self-taught journey for data analysis. I want to learn and utilize all practical data analysis tools that include: SQL, Python, Excel, and Power BI. I believe that learning these tools will allow me to increase my general knowledge of how business decisions are made, leverage a higher salary and earning potential, and finally make informed decisions on everyday topics and issues based on data.
+- This is part of a self-taught journey for data analysis. I want to learn and utilize all practical data analysis tools that include SQL, Python, Excel, and Power BI. I believe that learning these tools will allow me to increase my general knowledge of how business decisions are made, leverage a higher salary and earning potential, and finally make informed decisions on everyday topics and issues based on data.
 - I will be practicing SQL data extraction through Microsoft's Contoso sales database to better understand:
 1. How and when to use various SQL queries.
-2. Develop my insight and decision making skills based on data.
+2. Develop my insight and decision-making skills based on data.
 
 ### 🤖 Process
 - Give a brief overview of what I'm doing for each analysis.
 - Develop and run a SQL query to uncover the data.
 - Show the raw data.
-- Transform it into easy to read graphs and charts.
+- Transform it into easy-to-read graphs and charts.
 - Lay out what we see into simple terms.
 - Find any strategic decisions to make from the data.
 
@@ -79,11 +79,11 @@ ORDER BY
 #### 📊Is translated graphically:
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/835d299f-2b8c-48c0-9fdb-add45c6c6d0b" />
 
-#### 🧠Can be intrepreted:
+#### 🧠Can be interpreted:
 We have a significant number of mid-value customers contributing to our net revenue, but we would like to see how we can move those customers into the high-value area to further increase profits. 
 
 #### ✅Using the data for decisions: 
-This can be done by increased ad targeting the moderate spenders by further analyzing what demographics they are in or offering promotions that would encourage increased spending from those customers. The key here is to understand that majority of our customers are moderate spenders, and we need to ensure that they can get the most value out of our products, leading to sustainable business practices.
+This can be done by increased and targeting the moderate spenders by further analyzing what demographics they are in or offering promotions that would encourage increased spending from those customers. The key here is to understand that majority of our customers are moderate spenders, and we need to ensure that they can get the most value out of our products, leading to sustainable business practices.
 
 ### 2. **Cohort Analysis** 
 This analysis will break down how active our new customers look compared to our total revenue for a specified year. We want to see how many new customers we have each year and how much they contribute to the revenue we are bringing in. This will give us a clear indication of how well the business is performing, and we will implement some strategies to increase or maintain our first-time customers. Using this information, it will allow us to leverage new strategies to either maintain or increase our customer base.
@@ -121,7 +121,7 @@ GROUP BY
 
 <img width="1067" height="1600" alt="image" src="https://github.com/user-attachments/assets/575632ba-fa86-4aef-af76-84f1af878b74" />
 
-#### 🧠Can be intrepreted:
+#### 🧠Can be interpreted:
 In the first graph we can visually see that for the total customer/cohort year we have seen a general uptick in new customers from 2015-2022 (outlier in 2020 from a pandemic) and after that have seen an unfortunate decrease in new customers from 2022 and out. For the second graph it's easy to see that the total revenue/cohort year closely followed the customer/cohort year graph which makes sense when talking about new customers every year and revenue every year seeing a close correlation between the two. The most concerning graph is the graph depicting average revenue/customer/cohort year, which shows a decrease in average revenue for each year for each customer. This is unfortunate; however, it gives us valuable information about where the decreases happen and what we can do about in the future to see a thriving business.
 
 #### ✅Using the data for decisions: 
@@ -199,7 +199,7 @@ CHURNED,4263,4718,0.90,2023
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/e60d570e-e9c2-47cc-a820-58f3b18e9ee7" />
 
 
-#### 🧠Can be intrepreted:
+#### 🧠Can be interpreted:
 This shows the direct relationship between our active and churned customers for each year. This is another great insight for making decisions on how the company can move forward. Unfortunately, there is a high churn rate but being in business, this can be expected. We can see that 2022 was the best year for active customers along with total customers as well.
 
 #### ✅Using the data for decisions: 
@@ -207,14 +207,14 @@ Based on the data presented, I believe that continuing the strategies from previ
 
 ## Conclusion
 
-### 📚 Recomendations
+### 📚 Recommendations
 - Increased targeted marketing strategies for comprehensive customer engagement.
-- Amplified research and development into products and services currently offered and the introduction of new one's. 
+- Amplified research and development into products and services currently offered and the introduction of new ones. 
 - Considering taking on additional capital debt for innovation, customer outreach, and surveying. 
 
 ### ✍️ Technical Skills Learned
 - SQL queries
-- Postgresql SQL database
+- PostgreSQL SQL database
 - Dbeaver SQL analysis
 - Git's local repository 
 - Github presentations
@@ -233,6 +233,7 @@ Based on the data presented, I believe that continuing the strategies from previ
 - Github
 - Google Gemini
  
+
 
 
 
