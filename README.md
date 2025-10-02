@@ -1,13 +1,26 @@
 # Contoso SQL - Sales Analysis
 
-## Overview
+## Introduction
+### 🌄 Background
+- This is part of a self-taught journey for data analysis. I want to learn and utilize all practical data analysis tools that include: SQL, Python, Excel, and Power BI. I believe that learning these tools will allow me to increase my general knowledge of how business decisions are made, leverage a higher salary and earning potential, and finally make informed decisions on everyday topics and issues based on data.
+- I will be practicing SQL data extraction through Microsoft's Contoso sales database to better understand:
+1. How and when to use various SQL queries.
+2. Develop my insight and decision making skills based on data.
 
-## 💡Insight Questions
+### 🤖 Process
+- Give a brief overview of what I'm doing for each analysis.
+- Develop and run a SQL query to uncover the data.
+- Show the raw data.
+- Transform it into easy to read graphs and charts.
+- Lay out what we see into simple terms.
+- Find any strategic decisions to make from the data.
+
+### 💡 Question Overview
 1. **Customer Segmentation**: Who contributes the most to the business?
 2. **Cohort Analysis**: How do new customer groups generate our revenue?
 3. **Retention Analysis**: Which customer groups haven't purchased recently?
 
-## 🎯Analysis Approach
+## Analysis Approach
 ### 1. **Segmentation Analysis**
 During this analysis I am going to break down how the different segments of Contoso’s consumer base impact on the revenue for the company. It has been divided into three groups consisting of: high-value customers, who are greater than the 75th percentile in purchasing, medium-value customers who are in between the 25th and 75th percentile in purchasing and finally low-value customers, who are less than the 25th percentile in purchasing. This allows us to see the numerical value associated with each purchasing group and how they affect our total revenue. This also shows insights into which customer segments are impacting our business positively and which one's need more targeting for increased revenue growth.
 
@@ -192,19 +205,31 @@ This shows the direct relationship between our active and churned customers for 
 #### ✅Using the data for decisions: 
 Based on the data presented, I believe that continuing the strategies from previous sections would also decrease our churn to active customer rate which we want to reduce below 90% as a starting point. I believe for the company to be sustainable, aiming for 85% -80% will be what we need to continue successful operation. Like before, using our resources like targeted marketing and advertising would help increase customer retention.
 
-## Recomendations
-#### - Increased targeted marketing strategies for comprehensive customer engagement.
-#### - Amplified research and development into products and services currently offered and the introduction of new one's. 
-#### - Considering taking on additional capital debt for innovation, customer outreach, and surveying. 
+## Conclusion
 
-## Technical Skills
+### 📚 Recomendations
+- Increased targeted marketing strategies for comprehensive customer engagement.
+- Amplified research and development into products and services currently offered and the introduction of new one's. 
+- Considering taking on additional capital debt for innovation, customer outreach, and surveying. 
+
+### ✍️ Technical Skills Learned
 - SQL
 - Postgresql
 - Dbeaver
 - Git
 - Github
 - Google Gemini
+- Data implementation, extraction, and stories.
+
+### 🚀 Future
+- I want to continue and use SQL for the following topics that rely heavily on data: Consumerism, Technology, Retail, Pharmacy, and Exercise.
+- I believe that the possibilities with using this program are endless and continuing to use these SQL functions will set my future up great. My goal with this program is to of course become a master but also get something out of what the data is trying to tell me and I think in general this will help me lead to better informed decisions about our crazy world for the better.
+
+### 💻 Sources
+- [Luke Barrouse](https://www.youtube.com/watch?v=QKIGsShyEsQ&t=23012s&pp=0gcJCfsJAYcqIYzv)
+- [Microsoft Contoso Database](https://www.microsoft.com/en-us/download/details.aspx?id=18279)
  
+
 
 
 
